@@ -1,0 +1,19 @@
+.arrowStyle {
+    width: 2.5rem;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.arrowStyle:hover {
+    opacity: 1;
+}
+
+.arrow-left {
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.arrow-right {
+    top: 50%;
+    transform: translateY(-50%);
+}
